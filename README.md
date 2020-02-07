@@ -99,8 +99,15 @@ This Repository contains Model, Repository ,Resource Folders.
  Url's :
  
  A. GET All Users :   http://localhost:9001/users/
+ 
  B. GET Specific User based on Id : http://localhost:9001/users/10
+ 
  C. Create User using Post Method : http://localhost:9001/users/
- D. 
+ 
+ D. Get All Users post based on Id : http://localhost:9001/users/1/post
+ 
+ E: Create Post using Post Method (Specific User Id . Already implemented OneToMany and ManyToOne : http://localhost:9001/users/1/post
+ 
+ F: Gelt All users and posts based on postId : http://localhost:9001/users/1/post/100
       
       
